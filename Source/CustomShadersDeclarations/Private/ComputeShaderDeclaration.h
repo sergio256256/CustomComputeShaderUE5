@@ -70,5 +70,5 @@ private:
 	//Reference to a pooled render target where the shader will write its output
 	TRefCountPtr<IPooledRenderTarget> ComputeShaderOutput;
 public:
-	void Execute_RenderThread(FRHICommandListImmediate& RHICmdList, class FSceneRenderTargets& SceneContext);
+	void Execute_RenderThread(FRDGBuilder& builder, const FSceneTextures& SceneTextures);
 };
