@@ -1,6 +1,6 @@
 # CustomComputeShaderUE5
 
-A minimal Unreal Engine 4 porject for adding and using a compute shader. I published an article that covers the main steps of the process and I use this project as an example. 
+A minimal Unreal Engine 5 project for adding and using a compute shader. I published an article that covers the main steps of the process and I use this project as an example. 
 
 ## Modules:
 * **CustomComputeShader** : The primary game module
